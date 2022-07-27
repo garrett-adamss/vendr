@@ -1,1 +1,46 @@
 /* BASIC STYLES HERE */
+.snack-item {
+    position: relative;
+    transition: all .1s ease;
+    cursor: pointer;
+  }
+  
+  .snack-item:hover {
+    transform: translateY(-3px);
+    outline: 1.5px solid #32936F;
+    border-radius: 5px;
+  }
+  
+  .snack-item img {
+    height: 14em;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid;
+    border-color: #32936F;
+    border-radius: 5px;
+  }
+  
+  .snack-name {
+    background-color: #2274A5;
+    border: 1.5px solid;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+  }
+  
+  .price {
+    background-color: #E83F6F;
+    border: 1.5px solid;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+  }
+  .cart-border{
+    border-bottom: 4px solid;
+    border-color: #2e2e2e;
+  }
